@@ -6,8 +6,8 @@
 <sub>Kullanım hakları (C) 2008-2022 Oprea Dan, Bart de Koning, Richard Bailey,
 Germar Reitze, Taylor Raack<sub>
  
-Backup-In-Time dosyaları ve klasörleri yedeklemek için kullanılan basit bir yedekleme aracıdır.
-Backup-In-Time GNU/Linux işletim sistemi üzerinde çalışır ve ikisi de Python3 üzerinde çalışan 
+Back-In-Time dosyaları ve klasörleri yedeklemek için kullanılan basit bir yedekleme aracıdır.
+Back-In-Time GNU/Linux işletim sistemi üzerinde çalışır ve ikisi de Python3 üzerinde çalışan 
 `backintime` ve QT5 grafiksel kullanıcı arayüzü kullanan `backintime-qt` komut satırı uygulamalarını 
 size sunar.
 
