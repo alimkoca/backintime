@@ -10,13 +10,6 @@ Backup-In-Time dosyaları ve klasörleri yedeklemek için kullanılan basit bir 
 Backup-In-Time GNU/Linux işletim sistemi üzerinde çalışır ve ikisi de Python3 üzerinde çalışan 
 `backintime` ve QT5 grafiksel kullanıcı arayüzü kullanan `backintime-qt` komut satırı uygulamalarını 
 size sunar.
-  
-It uses 
-[`rsync`](https://rsync.samba.org/) to take manual or scheduled snapshots and
-stores them locally or remotely through SSH. Each snapshot is its own folder
-with copies of the original files, but unchanged files are hard-linked between
-snapshots to save space.
-It was inspired by [FlyBack](https://en.wikipedia.org/wiki/FlyBack).
 
 Uygulama manuel veya planlı yedeklemeler için ve onları yerel veya SSH yoluyla uzaktan
 bağlantılı olarak depolamak için `rsync` komut satırı uygulamasını kullanır. Her bir yedekleme
