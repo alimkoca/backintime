@@ -41,7 +41,7 @@ halletmeye çalışıyoruz. Eğer projemize katkı sağlamak istiyorsanız [CONT
 
 ## Dokümantasyon, SSS, Destek
 
- * [Son kullanıcı dokümantasyonu](https://backintime.readthedocs.org/) (not totally up-to-date)
+ * [Son kullanıcı dokümantasyonu](https://backintime.readthedocs.org/) (pek güncel değil)
  * [SSS - Sık Sorulan Sorular](FAQ.md)
  * [Geliştiriciler için kaynak kodu dokümantasyonu](https://backintime-dev.readthedocs.org)
  * [Sorunlar](https://github.com/bit-team/backintime/issues) bölümünü soru sormak ve bugları raporlamak için kullanın.
