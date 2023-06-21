@@ -46,3 +46,47 @@ halletmeye çalışıyoruz. Eğer projemize katkı sağlamak istiyorsanız [CONT
  * [Geliştiriciler için kaynak kodu dokümantasyonu](https://backintime-dev.readthedocs.org)
  * [Sorunlar](https://github.com/bit-team/backintime/issues) bölümünü soru sormak ve bugları raporlamak için kullanın.
  * [Elektronik posta listesi _bit-dev_](https://mail.python.org/mailman3/lists/bit-dev.python.org/)
+
+## Kurulum
+
+_Back In Time_ bir çok işletim sisteminde mevcuttur ve indirmek için depolarını kullanabilirsiniz. 
+Eğer projeye katkı sağlamak istiyorsanız veya _Back In Time_'ın son geliştirici sürümünü kullanıyorsanız lütfen
+şuraya bir göz atın [`CONTRIBUTING.tr.md` ile kurulum](CONTRIBUTING.md#build--install). Ayrıca bağımlılıkları da
+aynı yerden görebilirsiniz.
+
+Eğer kullandığınız GNU/Linux dağıtımı _Back In Time_ için resmi bir versiyon
+seçeneği sunmuyorsa lütfen bir Github üzerinde bir sorun başlığı açın ve bunu
+bilmemizi sağlayın. Biz bunu yapana kadar ise aşağıda yer alan seçenekleri
+kullanabilirsiniz.
+
+### Alternatif Kurulum Seçenekleri
+
+**Ubuntu ve Debian tabanlı dağıtımlar için PPA**
+
+Halihazırda mevcut stabil versiyonla bir PPA (Gizli Paket Arşivi)
+(`ppa:bit-team/stable`) ve test amaçlı bir PPA versiyonumuz mevcut (`ppa:bit-team/testing`).
+
+    # "Warning: apt-key is deprecated..." uyarısını şimdilik görmezden gelebilirsiniz (#1338 numaralı konu başlığına göz atın)
+    sudo add-apt-repository ppa:bit-team/stable
+    sudo apt-get update
+    sudo apt-get install backintime-qt
+
+veya
+
+    sudo add-apt-repository ppa:bit-team/testing
+    sudo apt-get update
+    sudo apt-get install backintime-qt
+
+**ArchLinux**
+
+Arch Linux için ise paketten ayrı olarak grafiksel kullanıcı arayüzünü dahil eden 
+AUR [`backintime`](https://aur.archlinux.org/packages/backintime) paketimiz mevcut.
+
+    # Ama kurulumdan önce genel anahtarı kuruluma dahil etmeniz gerekiyor.
+    gpg --keyserver pgp.mit.edu --recv-keys 615F366D944B4826
+    # Fingerprint: 3E70 692E E3DB 8BDD A599  1C90 615F 366D 944B 4826
+
+    wget https://aur.archlinux.org/cgit/aur.git/snapshot/backintime.tar.gz
+    tar xvzf backintime.tar.gz
+    cd backintime
+    makepkg -srci
